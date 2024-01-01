@@ -1,0 +1,123 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .hero-section {
+    background: #f5f5f5;
+    padding: 1em;
+  }
+  
+  .navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .navigation-menu .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .call-to-action-button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Main content */
+  .headline-section {
+    text-align: center;
+    padding: 2em;
+    background: white;
+  }
+  
+  .parallax-image {
+    background: url('parallax-image.jpg') no-repeat center center fixed;
+    height: 300px;
+    background-size: cover;
+  }
+  
+  .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: #f5f5f5;
+  }
+  
+  .hover-effect {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hover-effect:hover {
+    transform: scale(1.1);
+  }
+  
+  .banner img {
+    width: 100%;
+    display: block;
+  }
+  
+  .lead-magnet {
+    text-align: center;
+    padding: 2em;
+    background: white;
+  }
+  
+  .lead-magnet input[type='email'] {
+    padding: 0.5em;
+    margin: 0.5em 0;
+  }
+  
+  .lead-magnet input[type='submit'] {
+    padding: 0.5em 1em;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer-area {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .footer-menu {
+    padding-bottom: 1em;
+  }
+  
+  .footer-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
