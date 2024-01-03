@@ -114,3 +114,6 @@
     margin-right: 15px;
   }
   
+  iframe {
+    pointer-events: none;
+  }
