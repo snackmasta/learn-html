@@ -45,8 +45,9 @@
   top: 5%;
 }
 
-#heading2 {
-  top: 12%;
+#heading2,
+#content2 {
+  top: 35%;
 }
 
 #section1:hover #heading1,
@@ -54,6 +55,7 @@
   top: 50%;
 }
 
-#section2:hover #heading2 {
-  top: 50%;
+#section2:hover #heading2,
+#section2:hover #content2 {
+  top: 70%;
 }
