@@ -1,3 +1,6 @@
+#section1, #section2 {
+  height: 100vh;
+}
 #section1 {
   background-color: #bdbdbd;
 }
