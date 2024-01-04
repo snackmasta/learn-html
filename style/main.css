@@ -8,7 +8,7 @@
 #section1,
 #section2 {
   height: 10vh;
-  transition: height 0.5s ease-in-out;
+  transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); 
 }
 
 #section1 {
@@ -37,7 +37,7 @@
 #content2 {
   position: relative;
   right: 0%;
-  transition: top 0.5s ease-in-out;
+  transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); 
 }
 
 #heading1,
