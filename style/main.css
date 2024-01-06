@@ -5,57 +5,50 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#section1,
-#section2 {
-  height: 10vh;
-  transition: height 0.5s ease-in-out;
+.hero {
+  background-image: url("/Banner/hero.png");
+  background-size: cover;
+  background-position: left;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-#section1 {
-  background-color: #bdbdbd;
+/* h1,h2 {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  padding-left: 10%;
+  padding-top: 15vh;
 }
 
-#section2 {
-  background-color: #e0e0e0;
+h2 {
+  padding-top: 25vh;
+  font-size: 1rem;
+  padding-right: 25%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  padding-left: 10.6%;
+} */
+
+h1, h2 {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  padding-left: 10%;
 }
 
-#content2,
-#content1,
-#heading1,
-#heading2 {
-  text-align: right;
+h1 {
+  padding-top: 15vh;
 }
 
-#section1:hover,
-#section2:hover {
-  height: 20vh;
-}
-
-#heading1,
-#heading2,
-#content1,
-#content2 {
-  position: relative;
-  right: 0%;
-  transition: top 0.5s ease-in-out;
-}
-
-#heading1,
-#content1 {
-  top: 5%;
-}
-
-#heading2,
-#content2 {
-  top: 35%;
-}
-
-#section1:hover #heading1,
-#section1:hover #content1 {
-  top: 50%;
-}
-
-#section2:hover #heading2,
-#section2:hover #content2 {
-  top: 70%;
+h2 {
+  padding-top: 25vh;
+  font-size: 1rem;
+  padding-right: 25%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  padding-left: 10.6%;
 }
