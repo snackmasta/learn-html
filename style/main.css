@@ -8,7 +8,7 @@
 .hero {
   background-image: url(/Banner/hero.png);
   background-size: 200%, cover;
-  background-position: calc(10% + 10px) calc(50% + -30px); /* Change this line */
+  background-position: calc(10% + 10px) calc(50% + -30px);
   position: relative;
   height: 50vh;
   width: 100%;
@@ -47,6 +47,26 @@ h2 {
   font-weight: 100;
   padding-top: 1%;
   padding-right: 0%;
+}
+
+.brand-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 5%;
+  padding-top: 1%;
+  padding-right: 0%;
+}
+
+.logo-background {
+  background-image: url(/Icon/Logo\ PS.png);
+  background-size: contain;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact {
