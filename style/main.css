@@ -59,3 +59,22 @@
 #section2:hover #content2 {
   top: 70%;
 }
+
+.section3 {
+  height: 30vh;
+  background-color: #f47474;
+}
+
+.tes-div {
+  margin-left: 5vh;
+  height: 10vh;
+  background-color: #070707;
+  width: 10vh;
+}
+
+.logo {
+  background-image: url(/Icon/Logo\ PS\ copy.png);
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
