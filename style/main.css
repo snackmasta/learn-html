@@ -8,7 +8,7 @@
 .hero {
   background-image: url(/Banner/hero.png);
   background-size: 200%, cover;
-  background-position: 10% 90%;
+  background-position: calc(10% + 10px) calc(50% + -30px); /* Change this line */
   position: relative;
   height: 50vh;
   width: 100%;
