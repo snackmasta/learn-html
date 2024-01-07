@@ -6,49 +6,51 @@
 }
 
 .hero {
-  background-image: url("/Banner/hero.png");
-  background-size: cover;
-  background-position: left;
-  height: 40vh;
+  background-image: url(/Banner/hero.png);
+  background-size: 200%, cover;
+  background-position: 10% 90%;
+  position: relative;
+  height: 50vh;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: left;
 }
 
-/* h1,h2 {
-  color: white;
-  font-size: 2rem;
+.hero-gradient {
   position: absolute;
-  padding-left: 10%;
-  padding-top: 15vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.599), rgba(255, 255, 255, 0));
 }
 
-h2 {
-  padding-top: 25vh;
-  font-size: 1rem;
-  padding-right: 25%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 100;
-  padding-left: 10.6%;
-} */
-
-h1, h2 {
-  color: white;
-  font-size: 2rem;
+.hero-content {
   position: absolute;
-  padding-left: 10%;
+  top: 55%;
+  left: 10%;
+  padding-right: 0%;
+}
+
+h1,h2 {
+  color: rgb(255, 255, 255);
 }
 
 h1 {
-  padding-top: 15vh;
+  font-size: 3vh;
 }
 
 h2 {
-  padding-top: 25vh;
-  font-size: 1rem;
-  padding-right: 25%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  font-size: 1.5vh;
   font-weight: 100;
-  padding-left: 10.6%;
+  padding-top: 1%;
+  padding-right: 0%;
 }
+
+.contact {
+  background-color: black;
+  height: 100vh;
+}
+
